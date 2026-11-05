@@ -1,0 +1,6 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-bg text-slate-200 antialiased; font-family: Inter, system-ui, sans-serif; }
+.card { @apply bg-card rounded-2xl border border-white/5; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium bg-primary text-white hover:bg-accent transition disabled:opacity-50; }
+.btn-ghost { @apply bg-white/5 text-slate-200 hover:bg-white/10; }
+.safe-b { padding-bottom: env(safe-area-inset-bottom); }
