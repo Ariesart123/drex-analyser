@@ -1,20 +1,17 @@
-# API-only Worker (use this with the Vercel frontend). The React site is hosted on Vercel.
+
+# API-only Worker
 name = "drex-analyser"
 main = "worker/src/index.ts"
 compatibility_date = "2024-11-01"
 
 [ai]
-binding = "AI"   # zero-key AI (Cloudflare Workers AI). No user API key needed.
+binding = "AI"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "drex-db"
-database_id = "05da3f72-448f-4afa-9acb-2c76599f9b95"   # D1 -> your database -> copy "Database ID"
+database_id = "05da3f72-448f-4afa-9acb-2c76599f9b95"
 migrations_dir = "migrations"
 
 [vars]
-APP_URL = "https://drex-analyser.vercel.app"   # exactly your Vercel site address, no trailing path
-
-# Secrets (Dashboard -> Worker -> Settings -> Variables and Secrets, type "Secret"): GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET
-# Optional secrets: GITHUB_TOKEN (higher GitHub API limit), ENCRYPTION_KEY (only if users may add their own AI keys)
-# Optional vars: AI_MODEL, ALLOWED_ORIGINS (extra site origins, comma separated, e.g. a custom domain)
+APP_URL = "https://drex-analyser.vercel.app"
