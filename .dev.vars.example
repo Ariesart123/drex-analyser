@@ -1,0 +1,4 @@
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+GITHUB_TOKEN=
+ENCRYPTION_KEY=   # optional; base64 of 32 random bytes
