@@ -9,7 +9,7 @@ binding = "AI"   # zero-key AI (Cloudflare Workers AI). No user API key needed.
 [[d1_databases]]
 binding = "DB"
 database_name = "drex-db"
-database_id = "REPLACE_WITH_YOUR_D1_ID"   # D1 -> your database -> copy "Database ID"
+database_id = "05da3f72-448f-4afa-9acb-2c76599f9b95"   # D1 -> your database -> copy "Database ID"
 migrations_dir = "migrations"
 
 [vars]
