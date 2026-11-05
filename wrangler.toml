@@ -13,7 +13,7 @@ database_id = "05da3f72-448f-4afa-9acb-2c76599f9b95"   # D1 -> your database -> 
 migrations_dir = "migrations"
 
 [vars]
-APP_URL = "https://REPLACE-WITH-YOUR-VERCEL-URL.vercel.app"   # exactly your Vercel site address, no trailing path
+APP_URL = "https://drex-analyser.vercel.app"   # exactly your Vercel site address, no trailing path
 
 # Secrets (Dashboard -> Worker -> Settings -> Variables and Secrets, type "Secret"): GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET
 # Optional secrets: GITHUB_TOKEN (higher GitHub API limit), ENCRYPTION_KEY (only if users may add their own AI keys)
